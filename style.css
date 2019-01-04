@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #969696;
+}
+.container {
+   margin-top: 33px;
+}
+.nav-link {
+  margin-right: 100px;
+}
+img {
+  width: auto;
+  height: 100px;
+}
+#email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
