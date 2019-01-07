@@ -1,13 +1,20 @@
 header {
   display: flex;
   justify-content: space-between;
-  background: #969696;
+  background-image: linear-gradient(to bottom left, #3366ff, #e600e6);
+  font-family: 'Ubuntu', sans-serif;
 }
 .container {
    margin-top: 33px;
 }
 .nav-link {
-  margin-right: 100px;
+  margin-right: 150px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: orange;
 }
 img {
   width: auto;
@@ -16,5 +23,24 @@ img {
 #email-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  margin-top: 100px;
+}
+input[type="email"] {
+  font-size: 14px;
+  padding: 10px;
+  width: auto;
+  height: 20px;
+  border-radius: 2px;
+  flex-wrap: wrap;
+}
+#cubii {
+  flex-basis: auto;
+  width: 33%;
+  height: auto;
+  padding: 20px;
+}
+h1 {
+  padding-bottom: 10px;
 }
